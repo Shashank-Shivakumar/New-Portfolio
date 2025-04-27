@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Manisha Vaswani, portfolio, Manisha, researcher, professor, entrepreneur, portfolio design, portfolio website, personal portfolio" />
+    <meta name="description" content="Welcome to Manisha's Portfolio. Researcher | Professor | Entrepreneur" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Favicon -->
+    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <title>Portfolio | Manisha Vaswani</title>
+</head>
+
+<body oncontextmenu="return false">
+
+<!-- pre loader -->
+<!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
+<!-- navbar starts -->
+<header>
+        <a href="#" class="logo"></a>
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Core Competencies</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#work">Publications</a></li>
+            </ul>
+        </nav>
+</header>
+<!-- navbar ends -->
+
+
+<!-- hero section starts -->
+<section class="home" id="home">
+    <div id="particles-js"></div>
+
+    <div class="content">
+    <h2>Hey,<br/> I'm Manisha Vaswani</h2>
+    <p><span class="typing-text"></span></p>
+    <a href="#about" class="btn"><span>About Me</span>
+      <i class="fas fa-user"></i>
+    </a>
+    <div class="socials">
+        <ul class="social-icons">
+          <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/m1nshvw/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
+          <li><a class="twitter" aria-label="Twitter" href="https://x.com/drmvaswani?s=21" target="_blank"><i class="fab fa-twitter"></i></a><li>
+          <li>
+            <a class="Google" aria-label="Google" href="https://scholar.google.co.in/citations?user=HDcwGQkAAAAJ&hl=en" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 40" fill="currentColor">
+                <path d="M 25 3 C 12.85 3 3 12.85 3 25 C 3 37.15 12.85 47 25 47 C 37.15 47 47 37.15 47 25 C 47 12.85 37.15 3 25 3 z M 21 11 L 38 11 L 36.980469 11.880859 C 36.980469 11.920859 37 11.96 37 12 L 37 17.279297 C 37.6 17.619297 38 18.26 38 19 L 38 25 C 38 26.1 37.1 27 36 27 C 34.9 27 34 26.1 34 25 L 34 19 C 34 18.26 34.4 17.619297 35 17.279297 L 35 13.570312 L 31.410156 16.650391 C 31.760156 17.350391 32 18.200234 32 19.240234 C 32 21.960234 30.480703 23.309766 28.970703 24.509766 C 28.500703 24.989766 27.949219 25.510312 27.949219 26.320312 C 27.949219 27.120313 28.500391 27.570625 28.900391 27.890625 L 30.189453 28.919922 C 31.779453 30.279922 33.220703 31.530547 33.220703 34.060547 C 33.220703 37.510547 29.930469 41 23.730469 41 C 18.500469 41 15.980469 38.47 15.980469 35.75 C 15.980469 34.43 16.629766 32.559531 18.759766 31.269531 C 20.989766 29.879531 24.020391 29.690078 25.650391 29.580078 C 25.140391 28.920078 24.560547 28.230078 24.560547 27.080078 C 24.560547 26.470078 24.749687 26.100391 24.929688 25.650391 C 24.529688 25.690391 24.129531 25.730469 23.769531 25.730469 C 19.969531 25.730469 17.799297 22.85 17.779297 20 L 11 20 L 21 11 z M 24.269531 14.240234 C 23.339531 14.240234 22.33 14.710938 21.75 15.460938 C 21.14 16.220938 20.949219 17.210156 20.949219 18.160156 C 20.949219 20.620156 22.370938 24.699219 25.460938 24.699219 C 26.370938 24.699219 27.339922 24.259922 27.919922 23.669922 C 28.739922 22.819922 28.820312 21.65 28.820312 21 C 28.820312 18.35 27.269531 14.240234 24.269531 14.240234 z M 26.039062 30.609375 C 25.719062 30.609375 23.769766 30.679219 22.259766 31.199219 C 21.459766 31.499219 19.160156 32.370469 19.160156 34.980469 C 19.160156 37.590469 21.64 39.460938 25.5 39.460938 C 28.97 39.460938 30.800781 37.760234 30.800781 35.490234 C 30.800781 33.620234 29.620859 32.630391 26.880859 30.650391 C 26.590859 30.610391 26.409063 30.609375 26.039062 30.609375 z"/>
+              </svg>
+            </a>
+          </li>            
+          <li><a class="" href="mailto:m1nshvw@gmail.com" aria-label="Mail" target="_blank"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    
+<div class="image">
+    <img draggable="false" class="tilt" src="./assets/images/favicon.png" alt="">
+</div>
+</section>
+<!-- hero section ends -->
+
+
+<!-- about section starts -->
+<section class="about" id="about">
+    <h2 class="heading">About Me</h2>
+    
+    <div class="row">
+
+    <div class="image">
+        <img draggable="false" class="tilt" src="./assets/images/favicon.png" alt="">
+    </div>
+    <div class="content">
+        <h3>Manisha Vaswani</h3>
+        <span class="tag">Researcher | Professor | Entrepreneur</span>
+        
+        <p align="justify">I am a researcher, professor, and entrepreneur with a global perspective on innovation and strategy. My teaching spans entrepreneurship, family business, international business, and organizational strategy, with a focus on experiential learning and student engagement. My research explores entrepreneurial storytelling, immigrant entrepreneurship, digital transformation, and the psychological dimensions of entrepreneurial mindsets, drawing on real-world narratives and diverse ecosystems. I’ve published across high-impact journals and authored multiple books on Entrepreneurship, Strategy, Business Analytics, and AI. Beyond academia, I serve as a strategic advisor to startups and nonprofits, mentor entrepreneurs through national accelerators, and lead businesses like Seed and Scale, Intellaica and CrunchFind to connect education with practical impact. I believe in building inclusive entrepreneurial systems and using technology to bridge the gap between vision and execution.</p>
+        
+        <div class="resumebtn">
+            <a href="#" target="_blank" class="btn"><span>Resume</span>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+        </div>
+
+    </div>
+    </div>
+</section>
+<!-- about section ends -->
+
+<!-- skills section starts -->
+
+
+
+<section class="skills-section" id="skills">
+  <h2 class="heading">Core Competencies</h2>
+  
+  <!-- Add .skills-scroll-wrapper around skills-container if you want an even tidier scroll area -->
+  <div class="skills-container">
+    <!-- CARD 1 -->
+    <!-- <div class="skill-card">
+      <h3>Research & Analytical Skills</h3>
+      <ul class="skill-list">
+        <li><strong>A.</strong> <b>Quantitative Analysis:</b> Regression (linear, logistic), multicollinearity diagnostics, hypothesis testing, survival and event history analysis, AUC-ROC curve optimization</li>
+        <li><strong>B.</strong> <b>Machine Learning Techniques:</b> Bagging, Random Forest, AdaBoost, Gradient Boosting, XGBoost, Stacking Classifiers</li>
+        <li><strong>C.</strong> <b>Qualitative Research:</b> Case study analysis, narrative inquiry, thematic coding, storytelling in entrepreneurship, founder mindset mapping</li>
+        <li><strong>D.</strong> <b>Data Analytics & Visualization:</b> Exploratory data analysis, univariate and bivariate analysis, time series forecasting, Tableau dashboards</li>
+        <li><strong>E.</strong> <b>Tools:</b> Python, SPSS, STATA, Excel, Google Analytics, GridSearchCV</li>
+      </ul>
+    </div> -->
+    <div class="skill-card tilt">
+      <h3>Research &amp; Analytical Skills</h3>
+      
+      <!-- Container for sub-points -->
+      <div class="skill-list fancy-list">
+        
+        <!-- Each sub-point is now a mini block -->
+        <div class="skill-item animate-subpoint">
+          <div class="arrow-icon">➜</div>
+          <div class="skill-text">
+            Quantitative Analysis: Regression (linear, logistic), multicollinearity diagnostics...
+          </div>
+        </div>
+        
+        <div class="skill-item animate-subpoint">
+          <div class="arrow-icon">➜</div>
+          <div class="skill-text">
+            Machine Learning Techniques: Bagging, Random Forest, AdaBoost...
+          </div>
+        </div>
+        
+        <div class="skill-item animate-subpoint">
+          <div class="arrow-icon">➜</div>
+          <div class="skill-text">
+            Qualitative Research: Case study analysis, narrative inquiry...
+          </div>
+        </div>
+        
+        <div class="skill-item animate-subpoint">
+          <div class="arrow-icon">➜</div>
+          <div class="skill-text">
+            Data Analytics &amp; Visualization: Exploratory data analysis...
+          </div>
+        </div>
+        
+        <div class="skill-item animate-subpoint">
+          <div class="arrow-icon">➜</div>
+          <div class="skill-text">
+            Tools: Python, SPSS, STATA, Excel, Google Analytics, GridSearchCV
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="skill-card tilt">
+      <h3>Teaching &amp; Curriculum Design</h3>
+      
+      <!-- Container for sub-points -->
+      <div class="skill-list fancy-list">
+        
+        <!-- Each sub-point is now a mini block -->
+        <div class="skill-item animate-subpoint">
+          <div class="arrow-icon">➜</div>
+          <div class="skill-text">
+            Course development in Entrepreneurship, Family Business, Small Business Management, Strategic Analysis, and International Business.
+          </div>
+        </div>
+        
+        <div class="skill-item animate-subpoint">
+          <div class="arrow-icon">➜</div>
+          <div class="skill-text">
+            Online and hybrid teaching certifications (Harvard Business Publishing, AACSB, UWRF)
+          </div>
+        </div>
+        
+        <div class="skill-item animate-subpoint">
+          <div class="arrow-icon">➜</div>
+          <div class="skill-text">
+            Simulation-based learning (Seed and Scale), E-lab design, and entrepreneurship speaker series creation
+          </div>
+        </div>
+        
+        <div class="skill-item animate-subpoint">
+          <div class="arrow-icon">➜</div>
+          <div class="skill-text">
+            Student engagement through applied projects, pitch development, and classroom innovation
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+    
+    <!-- CARD 3 -->
+    <div class="skill-card tilt">
+      <h3>Entrepreneurship &amp; Innovation</h3>
+    
+      <div class="skill-list fancy-list">
+        <div class="skill-item animate-subpoint">
+          <div class="arrow-icon">➜</div>
+          <div class="skill-text">
+            Startup mentoring (EforAll, Adhvan Healthcare), go-to-market strategies, customer segmentation, pitch coaching
+          </div>
+        </div>
+    
+        <div class="skill-item animate-subpoint">
+          <div class="arrow-icon">➜</div>
+          <div class="skill-text">
+            Strategic consulting (Omega Consulting), innovation ecosystem design, business model development
+          </div>
+        </div>
+    
+        <div class="skill-item animate-subpoint">
+          <div class="arrow-icon">➜</div>
+          <div class="skill-text">
+            Digital entrepreneurship platforms: Founder of CrunchFind and Intellaica
+          </div>
+        </div>
+    
+        <div class="skill-item animate-subpoint">
+          <div class="arrow-icon">➜</div>
+          <div class="skill-text">
+            Research on immigrant entrepreneurship, digital ecosystems, and scaling via data-driven precision
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="skill-card tilt">
+      <h3>Leadership &amp; Organizational Strategy</h3>
+    
+      <div class="skill-list fancy-list">
+        <div class="skill-item animate-subpoint">
+          <div class="arrow-icon">➜</div>
+          <div class="skill-text">
+            NGO governance and impact strategy (The Vaswani Foundation)
+          </div>
+        </div>
+    
+        <div class="skill-item animate-subpoint">
+          <div class="arrow-icon">➜</div>
+          <div class="skill-text">
+            Faculty leadership: UG Curriculum Committee Chair, new course approvals, speaker series leadership
+          </div>
+        </div>
+    
+        <div class="skill-item animate-subpoint">
+          <div class="arrow-icon">➜</div>
+          <div class="skill-text">
+            Industry experience in HR, legal operations, immigration compliance, and business development
+          </div>
+        </div>
+    
+        <div class="skill-item animate-subpoint">
+          <div class="arrow-icon">➜</div>
+          <div class="skill-text">
+            Strategic planning, policy interpretation, and cross-cultural organizational leadership
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- You can keep adding more skill-cards as needed -->
+  </div>
+</section>
+
+<!-- <section class="skills" id="skills">
+
+    <h2 class="heading">Tech Stack</h2>  
+    <div class="container">
+          <div class="row" id="skillsContainer">
+      </div>
+</div>
+</section> -->
+<!-- skills section ends -->
+
+
+<!-- education section starts -->
+<section class="education" id="education">
+
+  <h1 class="heading">Education</h1>
+
+  <div class="box-container">
+
+    <div class="box">
+      <div class="image">
+        <img draggable="false" src="./assets/images/utd.jpeg" alt="">
+      </div>
+      <div class="content">
+        <h3>Post Graduate Program - Data Science and Business Analytics</h3>
+        <p>The University of Texas at Austin</p>
+        <h4>2020 - 2021</h4>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <img draggable="false" src="./assets/images/uta.jpeg" alt="">
+      </div>
+      <div class="content">
+        <h3>Doctor of Philosophy - PhD</h3>
+        <p>The University of Texas at Arlington</p>
+        <h4>2015 - 2020</h4>
+      </div>
+    </div>
+    
+    <div class="box">
+      <div class="image">
+        <img draggable="false" src="./assets/images/sfchyd.jpeg" alt="">
+      </div>
+      <div class="content">
+        <h3>Post Graduate - Accounting and Finance</h3>
+        <p>St. Francis College for Women</p>
+        <h4>2011 - 2013</h4>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <img draggable="false" src="./assets/images/sfchyd.jpeg" alt="">
+      </div>
+      <div class="content">
+        <h3>Bachelor's Degree - Finance, General</h3>
+        <p>St. Francis College for Women</p>
+        <h4>2008 - 2011</h4>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- education section ends -->
+
+<!-- experience section starts -->
+<section class="experience" id="experience">
+
+  <h2 class="heading">Experience </h2>
+
+  <div class="timeline">
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Adhvan Healthcare & Life Sciences LLC</h2>
+        </div>
+        <div class="desc">
+          <h3>Strategic Advisor</h3>
+          <p>Mar 2025 - Present · Remote · Boston, MA</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>Entrepreneurship for All (EforAll)</h2>
+        </div>
+        <div class="desc">
+          <h3>Mentor</h3>
+          <p>Mar 2025 - Present · Hybrid · Lawrence, MA</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Omega Consulting</h2>
+        </div>
+        <div class="desc">
+          <h3>Strategic Advisor</h3>
+          <p>Mar 2025 - Present · Boston, MA</p>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Merrimack College</h2>
+        </div>
+        <div class="desc">
+          <h3>Assistant Professor of Practice, Entrepreneurship</h3>
+          <p>Aug 2024 - Present · On-site · Massachusetts, USA</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>The Vaswani Foundation</h2>
+        </div>
+        <div class="desc">
+          <h3>Founder & President</h3>
+          <p>Jul 2019 - Sep 2024 · Hyderabad Area, India</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>University of Wisconsin-River Falls</h2>
+        </div>
+        <div class="desc">
+          <h3>Assistant Professor</h3>
+          <p>Aug 2020 - May 2024 · Wisconsin, USA</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container left">
+      <div class="content">
+        <div class="tag">
+          <h2>The University of Texas at Arlington</h2>
+        </div>
+        <div class="desc">
+          <h3>Adjunct Assistant Professor | Lecturer | Research Assistant</h3>
+          <p>Aug 2015 - Aug 2020 · Texas, USA</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>St. Francis College</h2>
+        </div>
+        <div class="desc">
+          <h3>Lecturer (Visiting Faculty)</h3>
+          <p>Jul 2013 - Nov 2013 · India</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container right">
+      <div class="content">
+        <div class="tag">
+          <h2>Dhirendra Jain & Co</h2>
+        </div>
+        <div class="desc">
+          <h3>Intern</h3>
+          <p>Apr 2012 - Jun 2012 · India</p>
+        </div>
+      </div>
+    </div> -->
+  </div>
+  <!-- <div class="morebtn">
+    <a href="/experience" class="btn"><span>View All</span>
+      <i class="fas fa-arrow-right"></i>
+  </a>
+  </div> -->
+</div>
+</section>
+<!-- experience section ends -->
+
+<!-- work project section starts -->
+
+
+<section class="work" id="work">
+  <h2 class="heading">Publications & Projects</h2>
+
+  <div id="project-filters" class="filters">
+    <button class="filter-btn active" data-filter="cat1">Manuscripts</button>
+    <button class="filter-btn" data-filter="cat2">Book Chapters</button>
+    <button class="filter-btn" data-filter="cat3">Books</button>
+    <button class="filter-btn" data-filter="cat4">Professional Service</button>
+  </div>
+
+  <div class="box-container">
+</div>
+
+<!-- <div class="viewall">
+<a href="#" class="btn"><span>View All</span>
+  <i class="fas fa-arrow-right"></i>
+</a>
+</div> -->
+
+</section>
+<!-- work project section ends -->
+
+<!-- footer section starts -->
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">
+          <h3>Manisha's Portfolio</h3>
+          <p>Thank you for exploring my digital canvas. Let's connect through socials.<br/> <br/> Together, We Rise.</p>
+      </div>
+      <div class="box">
+      </div>
+      <!-- <div class="box">
+          <h3>quick links</h3>
+          <a href="#home"><i class="fas fa-chevron-circle-right"></i> home</a>
+          <a href="#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+          <a href="#skills"><i class="fas fa-chevron-circle-right"></i> skills</a>
+          <a href="#education"><i class="fas fa-chevron-circle-right"></i> education</a>
+          <a href="#work"><i class="fas fa-chevron-circle-right"></i> work</a>
+          <a href="#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+      </div> -->
+
+      <div class="box">
+          <h3>Contact Info</h3>
+          <p> <i class="fas fa-envelope"></i>m1nshvw@gmail.com</p>
+          <p> <a href="https://www.linkedin.com/in/m1nshvw" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i>Manisha Vaswani, PhD</a></p>
+          <p> <i class="fas fa-map-marked-alt"></i>North Andover, MA</p>
+          <div class="share">
+              <a href="https://m.youtube.com/@manishamvaswani" class="fab fa-youtube" aria-label="Toutube" target="_blank"></a>
+                <a class="Google" aria-label="GitHub" href="https://scholar.google.co.in/citations?user=HDcwGQkAAAAJ&hl=en" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 40 50" fill="currentColor">
+                    <path d="M 25 3 C 12.85 3 3 12.85 3 25 C 3 37.15 12.85 47 25 47 C 37.15 47 47 37.15 47 25 C 47 12.85 37.15 3 25 3 z M 21 11 L 38 11 L 36.980469 11.880859 C 36.980469 11.920859 37 11.96 37 12 L 37 17.279297 C 37.6 17.619297 38 18.26 38 19 L 38 25 C 38 26.1 37.1 27 36 27 C 34.9 27 34 26.1 34 25 L 34 19 C 34 18.26 34.4 17.619297 35 17.279297 L 35 13.570312 L 31.410156 16.650391 C 31.760156 17.350391 32 18.200234 32 19.240234 C 32 21.960234 30.480703 23.309766 28.970703 24.509766 C 28.500703 24.989766 27.949219 25.510312 27.949219 26.320312 C 27.949219 27.120313 28.500391 27.570625 28.900391 27.890625 L 30.189453 28.919922 C 31.779453 30.279922 33.220703 31.530547 33.220703 34.060547 C 33.220703 37.510547 29.930469 41 23.730469 41 C 18.500469 41 15.980469 38.47 15.980469 35.75 C 15.980469 34.43 16.629766 32.559531 18.759766 31.269531 C 20.989766 29.879531 24.020391 29.690078 25.650391 29.580078 C 25.140391 28.920078 24.560547 28.230078 24.560547 27.080078 C 24.560547 26.470078 24.749687 26.100391 24.929688 25.650391 C 24.529688 25.690391 24.129531 25.730469 23.769531 25.730469 C 19.969531 25.730469 17.799297 22.85 17.779297 20 L 11 20 L 21 11 z M 24.269531 14.240234 C 23.339531 14.240234 22.33 14.710938 21.75 15.460938 C 21.14 16.220938 20.949219 17.210156 20.949219 18.160156 C 20.949219 20.620156 22.370938 24.699219 25.460938 24.699219 C 26.370938 24.699219 27.339922 24.259922 27.919922 23.669922 C 28.739922 22.819922 28.820312 21.65 28.820312 21 C 28.820312 18.35 27.269531 14.240234 24.269531 14.240234 z M 26.039062 30.609375 C 25.719062 30.609375 23.769766 30.679219 22.259766 31.199219 C 21.459766 31.499219 19.160156 32.370469 19.160156 34.980469 C 19.160156 37.590469 21.64 39.460938 25.5 39.460938 C 28.97 39.460938 30.800781 37.760234 30.800781 35.490234 C 30.800781 33.620234 29.620859 32.630391 26.880859 30.650391 C 26.590859 30.610391 26.409063 30.609375 26.039062 30.609375 z"/>
+                  </svg>
+                </a>
+              <a href="https://x.com/drmvaswani?s=21" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a>
+              <a href="https://www.youtube.com/@TheDisruptiveProfessor" class="fab fa-youtube" aria-label="Toutube" target="_blank"></a>
+              <a href="#" class="fab fa-spotify" aria-label="Spotify" target="_blank"></a>
+              <a href="https://www.youtube.com/@TheDisruptiveProfessor" aria-label="Toutube" target="_blank"><i class="fab fa-itunes"></i></a>
+          </div>
+      </div>
+  </div>
+
+  <h1 class="credit">Designed by <a href="https://www.linkedin.com/in/m1nshvw"> Manisha Vaswani</a></h1>
+
+</section>
+<!-- footer section ends -->
+
+
+<!-- scroll top btn -->
+<a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+<!-- scroll back to top -->
+
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+<!-- jquery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- typed.js cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js" integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- particle.js links -->
+<script src="./assets/js/particles.min.js"></script>
+<script src="./assets/js/app.js"></script>
+
+<!-- vanilla tilt.js links -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js" integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- scroll reveal anim -->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+
+<!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+<script src="./assets/js/script.js"></script>
+
+</body>
+</html>

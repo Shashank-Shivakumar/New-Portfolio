@@ -1,0 +1,166 @@
+[
+  {
+    "name": "Firm Performance Feedback and Organizational Impression Management: The Moderating Role of CEO Overconfidence",
+    "desc": "Dadanlar, H., Vaswani, M., Al Shammari, M. & Banerjee, S. (2024). Firm Performance Feedback and Organizational Impression Management: The Moderating Role of CEO Overconfidence. Journal of Management & Organization.",
+    "image": "manuscript.png",
+    "category": "mern",
+    "customCategory": "cat1",     
+    "links": {
+      "view": "",
+      "code": "https://doi.org/10.1017/jmo.2024.8"
+    }
+  },
+  {
+    "name": "Performance Feedback and Strategic Change: Moderating Effects of Firm Visibility and Firm Slack",
+    "desc": "Al-Shammari M., Banerjee S., Shah T., Vaswani M., Al-Shammari (2024). Performance Feedback and Strategic Change: Moderating Effects of Firm Visibility and Firm Slack. International Studies of Management and Organization.",
+    "image": "manuscript.png",
+    "category": "lamp",
+    "customCategory": "cat1",
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "CEO Ability and Strategic Change: The Moderating Effects of Firm Age and Slack",
+    "desc": "Shah T., Vaswani M., Banerjee S., Venugopal A., Al-Shammari M. (2025). CEO Ability and Strategic Change: The Moderating Effects of Firm Age and Slack. European Management Review.",
+    "image": "manuscript.png",
+    "category": "mern",
+    "customCategory": "cat1",     
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "CEO Regulatory Focus & Firm’s Digital Transformation, the Moderating Role of Temporal Focus",
+    "desc": "Vaswani M., & Al-Shammari M. (2025). CEO Regulatory Focus & Firm’s Digital Transformation, the Moderating Role of Temporal Focus. Journal of Business Research.",
+    "image": "manuscript.png",
+    "category": "mern",
+    "customCategory": "cat1",     
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "The Evolution of Consulting in the Digital Era: Knowledge Orchestration, Co-Creation, and AI-Driven Innovation for Competitive Advantage",
+    "desc": "Vaswani M. (2025). The Evolution of Consulting in the Digital Era: Knowledge Orchestration, Co-Creation, and AI-Driven Innovation for Competitive Advantage. International Journal of Entrepreneurship and Innovation.",
+    "image": "manuscript.png",
+    "category": "mern",
+    "customCategory": "cat1",     
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "Invisible Engines: How Immigrant Entrepreneurs Use Digital Platforms to Navigate Exclusion and Build Transnational Ventures",
+    "desc": "Vaswani M. (2025). Invisible Engines: How Immigrant Entrepreneurs Use Digital Platforms to Navigate Exclusion and Build Transnational Ventures. Journal of Enterprising Communities.",
+    "image": "manuscript.png",
+    "category": "mern",
+    "customCategory": "cat1",     
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "Embedded Asymmetries: How Networks, Training, and Policy Shape Entrepreneurial Success in Emerging and Developed Markets",
+    "desc": "Vaswani M. (2025). Embedded Asymmetries: How Networks, Training, and Policy Shape Entrepreneurial Success in Emerging and Developed Markets. Journal of Small Business and Enterprise Development.",
+    "image": "manuscript.png",
+    "category": "mern",
+    "customCategory": "cat1",     
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "Neurodivergent Entrepreneurship: The Indian Perspective",
+    "desc": "Vaswani, M. (2024). Neurodivergent Entrepreneurship: The Indian Perspective. Entrepreneurship and Neurodiversity. Emerald Publishing Limited. <br>ISBN: 9781837537990, 1837537992.",
+    "image": "book_chapter.png",
+    "customCategory": "cat2",
+    "links": {
+      "view": "",
+      "code": "https://bookstore.emerald.com/neurodiversity-and-entrepreneurship-hb-9781837537990.html"
+    }
+  },
+  {
+    "name": "Advanced Business Analytics for Data-Driven Decision Making",
+    "desc": "Vaswani, M. (2025). Advanced Business Analytics for Data-Driven Decision Making. IGI Publishing.",
+    "image": "books.png",
+    "category": "mern",
+    "customCategory": "cat3",
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "Entrepreneurial Strategies in the Global Market",
+    "desc": "Vaswani, M. & AlShammari, M. (2025). Entrepreneurial Strategies in the Global Market. IGI Publishing.",
+    "image": "books.png",
+    "category": "mern",
+    "customCategory": "cat3",
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "Algorithmic Entrepreneurship: Scaling Startups with Data-Driven Precision",
+    "desc": "Vaswani, M. (2025). Algorithmic Entrepreneurship: Scaling Startups with Data-Driven Precision.",
+    "image": "books.png",
+    "category": "mern",
+    "customCategory": "cat3",
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "Artificial Intelligence in the Fourth Industrial Revolution",
+    "desc": "Vaswani, M. (2025). Artificial Intelligence in the Fourth Industrial Revolution: Theoretical Perspectives and Practical Insights.",
+    "image": "books.png",
+    "category": "mern",
+    "customCategory": "cat3",
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "Seed and Scale - Simulation Game for Graduate and Undergraduate Students",
+    "desc": "The simulation game challenges students to manage various ventures (family business, non-profit, for-profit) by making strategic decisions on mission, branding, marketing, product management, and crisis responses to general business environments. Students will navigate key business activities such as Strategic Planning, Operational Decisions & Crisis Management.",
+    "image": "prof_services.png",
+    "category": "mern",
+    "customCategory": "cat4",     
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "CrunchFind",
+    "desc": "A specialized social networking platform for academia and industry designed to bridge the gap between academia and industry, offering a suite of tools that empower teaching, research, and real-world applications. CrunchFind enables educators, researchers, and industry professionals to connect more effectively.",
+    "image": "prof_services.png",
+    "category": "mern",
+    "customCategory": "cat4",     
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "Intellaica",
+    "desc": "Intellaica is an AI-powered tutoring platform designed to transform the educational experience by seamlessly integrating with course-adopted textbooks and leveraging advanced language models. It automates the creation of personalized study guides and interactive in-class activities while streamlining classroom management through features like real-time attendance tracking and engagement point allocation.",
+    "image": "prof_services.png",
+    "category": "mern",
+    "customCategory": "cat4",     
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  }
+]
